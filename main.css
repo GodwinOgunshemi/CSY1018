@@ -93,18 +93,11 @@ nav li{
   float: right;
   width: 450px;
   background: rgba(76, 0, 1, 0.349);
-  padding: 5px;
-  border: 10px solid rgba(139, 137, 137, 0.288);
-  
+  padding: 10px;
+  border: 15px solid rgba(139, 137, 137, 0.288);
+  list-style-type: none;
 }
 
-.content1 ul li{
-  color: #000;
-  margin-bottom: 30px;
-  font-family: 'Russo One', sans-serif;  
-  list-style-type:none;
-  
-}
 
 .content2 ul{
   float: right;
@@ -163,7 +156,7 @@ nav li{
   position: absolute;
   left: 0;
   right: 0;
-  margin-top: 1600px;
+  margin-top: 2500px;
 }
 #myFooter2 {
 	background-color: rgba(76, 0, 1, 0.301);
