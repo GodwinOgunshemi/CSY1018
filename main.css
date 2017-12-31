@@ -5,6 +5,13 @@ h1 {
   font-size: 70px;
 }
 
+h5 {
+  font-family: 'Russo One', sans-serif;
+  color: black;
+  text-align: center;
+  font-size: 40px;
+}
+
 h2{
   font-family: 'Spectral SC', serif;
   color: #000;
@@ -133,6 +140,14 @@ nav li{
   
 }
 
+.content4 ul{
+  float: right;
+  width: 930px;
+  background: rgba(76, 0, 1, 0.349);
+  padding: 5px;
+  border: 10px solid rgba(139, 137, 137, 0.288);
+}
+
 .content4 ul li{
   color: #000;
   margin-bottom: 30px;
@@ -148,7 +163,7 @@ nav li{
   position: absolute;
   left: 0;
   right: 0;
-  margin-top: 2000px;
+  margin-top: 1600px;
 }
 #myFooter2 {
 	background-color: rgba(76, 0, 1, 0.301);
@@ -167,7 +182,7 @@ nav li{
   position: absolute;
   left: 0;
   right: 0;
-  margin-top: 850px;
+  margin-top: 1100px;
 }
 
 #myFooter4 {
@@ -177,7 +192,7 @@ nav li{
   position: absolute;
   left: 0;
   right: 0;
-  margin-top: 850px;
+  margin-top: 9000px;
 }
 
 #myFooter .footer-copyright{
@@ -251,3 +266,14 @@ html{
   color: rgb(0, 0, 0);
 }
 
+iframe {
+    border-width: 20px;
+    border-style: inset;
+    border-color: rgba(76, 0, 1, 0.301);
+    border-image: initial;
+    margin-left: 150px;
+}
+
+img {
+  margin-left: 10px;
+}
