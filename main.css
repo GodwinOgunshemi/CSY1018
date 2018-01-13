@@ -149,6 +149,36 @@ nav li{
   
 }
 
+.content5 ul{
+  float: right;
+  width: 930px;
+  background: rgba(76, 0, 1, 0.349);
+  padding: 5px;
+  border: 10px solid rgba(139, 137, 137, 0.288);
+}
+
+.content5 ul li{
+  color: #000;
+  margin-bottom: 30px;
+  font-family: 'Russo One', sans-serif;  
+  list-style-type:none;
+}
+
+.content6 ul{
+  float: right;
+  width: 930px;
+  background: rgba(76, 0, 1, 0.349);
+  padding: 5px;
+  border: 10px solid rgba(139, 137, 137, 0.288);
+}
+
+.content6 ul li{
+  color: #000;
+  margin-bottom: 30px;
+  font-family: 'Russo One', sans-serif;  
+  list-style-type:none;
+}
+
 #myFooter1 {
 	background-color: rgba(76, 0, 1, 0.301);
   color:white;
@@ -156,7 +186,7 @@ nav li{
   position: absolute;
   left: 0;
   right: 0;
-  margin-top: 2500px;
+  margin-top: 10em;
 }
 #myFooter2 {
 	background-color: rgba(76, 0, 1, 0.301);
@@ -165,7 +195,7 @@ nav li{
   position: absolute;
   left: 0;
   right: 0;
-  margin-top: 5040px;
+  margin-top: 290em;
 }
 
 #myFooter3 {
@@ -175,9 +205,8 @@ nav li{
   position: absolute;
   left: 0;
   right: 0;
-  margin-top: 1100px;
+  margin-top: 60em;
 }
-
 #myFooter4 {
 	background-color: rgba(76, 0, 1, 0.301);
   color:white;
@@ -185,7 +214,27 @@ nav li{
   position: absolute;
   left: 0;
   right: 0;
-  margin-top: 9000px;
+  margin-top: 472em;   
+}
+
+#myFooter5 {
+	background-color: rgba(76, 0, 1, 0.301);
+  color:white;
+  padding: 1em;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-top: 135em;   
+}
+
+#myFooter6 {
+	background-color: rgba(76, 0, 1, 0.301);
+  color:white;
+  padding: 1em;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-top: 60em;   
 }
 
 #myFooter .footer-copyright{
@@ -205,12 +254,6 @@ nav li{
 		text-align: center;
 	}
 }
-
-
-
-/* CSS used for positioning the footers at the bottom of the page. */
-/* You can remove this. */
-
 
 html{
 	height: 100% !important;
@@ -270,3 +313,33 @@ iframe {
 img {
   margin-left: 10px;
 }
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  background-color: rgba(95, 41, 42, 0.055);
+  border: 5px solid rgb(0, 0, 0);
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color:  rgba(76, 0, 1, 0.527)
+  color: rgb(0, 0, 0);
+  padding: 12px 20px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: rgba(76, 0, 1, 0.349)
+}
+
+.contact form {
+  border-radius: 5px;
+  background-color: rgba(76, 0, 1, 0.712);
+  padding: 20px;
