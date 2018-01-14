@@ -68,7 +68,6 @@ body {
 
 head{
   background: #fff;
-  margin-bottom: 20px;
   overflow: hidden;
 }
 /* This is the code for my navigation bar */
@@ -234,7 +233,7 @@ nav li{
   position: absolute;
   left: 0;
   right: 0;
-  margin-top: 60em;   
+  margin-top: 338em;   
 }
 
 #myFooter .footer-copyright{
@@ -253,10 +252,6 @@ nav li{
 	#myFooter {
 		text-align: center;
 	}
-}
-
-html{
-	height: 100% !important;
 }
 
 
@@ -343,3 +338,4 @@ input[type=submit]:hover {
   border-radius: 5px;
   background-color: rgba(76, 0, 1, 0.712);
   padding: 20px;
+}
