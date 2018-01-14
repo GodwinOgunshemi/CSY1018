@@ -233,7 +233,7 @@ nav li{
   position: absolute;
   left: 0;
   right: 0;
-  margin-top: 338em;   
+  margin-top: 360em;   
 }
 
 #myFooter .footer-copyright{
@@ -275,7 +275,7 @@ nav li{
   margin: 10px 10px;
   border-radius: 50%;
   margin-left: 15em;
- ,
+
 }
 
 .fa:hover {
@@ -322,7 +322,7 @@ input[type=text], select, textarea {
 }
 
 input[type=submit] {
-  background-color:  rgba(76, 0, 1, 0.527)
+  background-color:  rgba(76, 0, 1, 0.527);
   color: rgb(0, 0, 0);
   padding: 12px 20px;
   border: none;
